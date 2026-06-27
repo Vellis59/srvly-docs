@@ -23,6 +23,7 @@ sidebar_label: Requirements
 | Service | Image | Purpose |
 |---|---|---|
 | Postgres | `postgres:16-alpine` | Database |
+| Redis | `redis:7-alpine` | Job queue (BullMQ) |
 | srvly platform | Custom build | Dashboard + API |
 | Caddy | `caddy:2-alpine` | Reverse proxy + auto TLS |
 

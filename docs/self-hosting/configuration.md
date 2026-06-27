@@ -19,6 +19,8 @@ sidebar_label: Configuration
 | `GITHUB_CLIENT_ID` | GitHub OAuth App client ID | ✅ |
 | `GITHUB_CLIENT_SECRET` | GitHub OAuth App client secret | ✅ |
 | `SSH_KEY_PATH` | Path for generated SSH keys | ✅ |
+| `REDIS_URL` | Redis connection for BullMQ job queue | ❌ (recommended) |
+| `SSH_ENCRYPTION_KEY` | AES-256-GCM key for SSH encryption (fallback: `AUTH_SECRET`) | ❌ |
 
 ## GitHub OAuth Setup
 
