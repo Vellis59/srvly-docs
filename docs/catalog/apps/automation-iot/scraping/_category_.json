@@ -1,0 +1,8 @@
+{
+  "label": "Web Scraping",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Web scraping and data extraction tools."
+  }
+}

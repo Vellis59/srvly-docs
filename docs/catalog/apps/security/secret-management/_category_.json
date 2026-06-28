@@ -1,0 +1,8 @@
+{
+  "label": "Secret Management",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Secret and API key management tools."
+  }
+}

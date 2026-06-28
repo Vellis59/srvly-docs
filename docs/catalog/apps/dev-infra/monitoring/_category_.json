@@ -1,0 +1,8 @@
+{
+  "label": "Monitoring & Logging",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "System monitoring, observability, and alerting tools."
+  }
+}

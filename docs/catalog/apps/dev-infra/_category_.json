@@ -1,0 +1,8 @@
+{
+  "label": "Dev & Infrastructure",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Server management, monitoring, databases, CI/CD, containers, and developer productivity tools."
+  }
+}

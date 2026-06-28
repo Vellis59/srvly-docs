@@ -1,0 +1,8 @@
+{
+  "label": "Server Management",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Server administration, control panels, and infrastructure management."
+  }
+}

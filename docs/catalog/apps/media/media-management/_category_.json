@@ -1,0 +1,8 @@
+{
+  "label": "Media Management",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Media library management, streaming, and organization."
+  }
+}

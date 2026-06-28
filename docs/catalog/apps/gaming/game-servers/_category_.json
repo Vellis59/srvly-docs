@@ -1,0 +1,8 @@
+{
+  "label": "Game Servers",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Multiplayer game server hosting and management."
+  }
+}

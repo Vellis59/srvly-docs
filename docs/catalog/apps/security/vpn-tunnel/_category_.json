@@ -1,0 +1,8 @@
+{
+  "label": "VPN & Tunnels",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "VPN servers, tunneling, and secure remote access."
+  }
+}

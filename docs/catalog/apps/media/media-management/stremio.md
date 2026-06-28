@@ -1,0 +1,26 @@
+---
+title: "Stremio"
+sidebar_position: 132
+tags: [media, media-management, streaming, movies, tv-shows]
+---
+
+# Stremio
+
+> Stremio is a modern media center application that provides a unified platform for streaming movies, TV shows, and live TV content. This template uses the community Docker image tsaridas/stremio-docker (server and web UI). The self-hosted setup lets you run your own Stremio server, giving you complete control over your media streaming experience. With support for various content sources and add-ons, Stremio aggregates content from multiple providers into a single interface. The application features automatic server URL configuration and CORS handling, making it easy to access from any device. With persistent storage for server data and configurations, Stremio ensures your settings and preferences are retained across container restarts. Perfect for media enthusiasts who want a centralized streaming solution, users looking for a self-hosted alternative to commercial streaming services, or anyone seeking a flexible media center that can aggregate content from multiple sources.
+
+## Quick Info
+
+| Field | Value |
+|-------|-------|
+| **Category** | Media |
+| **Subcategory** | Media Management |
+| **Default Port** | 8080 |
+| **Docker Image** | `tsaridas/stremio-docker:v1.2.16` |
+| **Dependencies** | Docker |
+| **OS Support** | Ubuntu 22.04, Ubuntu 24.04, Debian 12 |
+
+## Links
+
+- 🌐 [Website](https://www.stremio.com)
+- 📚 [Documentation](https://hub.docker.com/r/tsaridas/stremio-docker)
+- 💻 [GitHub](https://github.com/tsaridas/stremio-docker)

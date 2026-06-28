@@ -1,0 +1,8 @@
+{
+  "label": "Auth & SSO",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Authentication, single sign-on, and identity management."
+  }
+}
