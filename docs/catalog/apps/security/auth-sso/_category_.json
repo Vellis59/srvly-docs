@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Authentication, single sign-on, and identity management."
+    "description": "Auth & SSO applications available in the srvly catalog."
   }
 }

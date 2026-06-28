@@ -1,5 +1,5 @@
 ---
-title: ""I, Librarian""
+title: "\"I, Librarian\""
 sidebar_position: 193
 tags: [productivity, notes-wiki]
 ---

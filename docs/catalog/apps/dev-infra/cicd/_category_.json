@@ -3,6 +3,6 @@
   "position": 8,
   "link": {
     "type": "generated-index",
-    "description": "Continuous integration and continuous deployment pipelines."
+    "description": "CI/CD applications available in the srvly catalog."
   }
 }

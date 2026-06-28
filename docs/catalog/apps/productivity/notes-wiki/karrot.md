@@ -6,7 +6,7 @@ tags: [productivity, notes-wiki]
 
 # Karrot
 
-> Karrot est une plateforme communautaire pour les groupes locaux d'entraide, le foodsharing (partage de nourriture pour éviter le gaspillage), le group buying (achats groupés), et les activités de quartier. Successeur de Foodsharing.de (utilisé par > 300 000 personnes en Europe). Inclut : cartographi
+> Karrot est une plateforme communautaire pour les groupes locaux d'entraide, le foodsharing (partage de nourriture pour éviter le gaspillage), le group buying (achats groupés), et les activités de quartier. Successeur de Foodsharing.de (utilisé par &gt; 300 000 personnes en Europe). Inclut : cartographi
 
 ## Quick Info
 
