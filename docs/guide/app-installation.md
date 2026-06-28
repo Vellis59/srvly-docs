@@ -5,27 +5,36 @@ sidebar_label: App Installation
 
 # Installing Apps
 
-srvly doesn't install apps directly. Instead, it provides your AI agent with the information needed to deploy applications via SSH.
+srvly doesn't install apps directly. Instead, your **AI agent** handles the deployment automatically using the information available in the app catalog.
 
 ## The Workflow
 
-1. Browse the **Catalog** and find an app you want
-2. Copy the **Agent Prompt** — a pre-built prompt for your AI assistant
-3. Paste it into your AI agent's chat
-4. The agent checks port availability, pulls the Docker image, configures the app, and registers the installation via the srvly API
+1. **Browse** the catalog and find an application you want to deploy
+2. **Ask your AI agent** to install it (e.g., "Deploy Outline Wiki on my server")
+3. The agent pulls the Docker image, configures networking and SSL, and registers the installation via the srvly API
 
-## Agent Prompts
+## What the Agent Does
 
-Each app has a contextual prompt that tells the agent:
-- The Docker image and tags
-- Ports, volumes, and environment variables
-- Domain/SSL configuration
-- Where to register the installation in srvly
+- Checks port availability on the target server
+- Pulls the correct Docker image
+- Maps ports and configures the firewall
+- Sets up a domain with automatic SSL (Caddy)
+- Mounts volumes for persistent data
+- Registers the installation so it appears in your dashboard
 
-## Retry Logic
+## If It Fails
 
-If an installation fails:
-1. The agent cleans up (removes failed containers, deletes partial records)
-2. Picks a free port
+The agent automatically:
+1. Cleans up any failed containers and partial records
+2. Picks an alternative port if needed
 3. Retries the installation
-4. Reports the result back
+4. Reports the result
+
+## App Requirements
+
+Each app page in the [catalog](/catalog/overview) lists:
+- **Docker image** and version
+- **Default port**
+- **Dependencies** (PostgreSQL, Redis, etc.)
+- **Supported OS** versions
+- **Links** to official documentation and source code

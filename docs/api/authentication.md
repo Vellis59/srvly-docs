@@ -5,18 +5,31 @@ sidebar_label: Authentication
 
 # API Authentication
 
-API requests require a **Bearer token** in the `Authorization` header:
+All API requests require a **Bearer token** in the `Authorization` header:
 
 ```http
-Authorization: Bearer <server_token>
-```
+Authorization: Bearer *** Token
+The token is generated in the srvly dashboard under **Settings → API Tokens**. Each user account can have its own token.
 
-## Getting a Token
+## Where to Find Your Token
 
-Each server has its own token visible on the server detail page in the dashboard.
+1. Open the srvly dashboard
+2. Go to **Settings**
+3. Copy the token from the **API Token** section
+
+## Usage Examples
+
+```bash
+# List installations on a server
+curl -H "Authorization: Bearer *** Info
+
+| Endpoint | Auth Required |
+|----------|--------------|
+| `GET /api/deploy` | No (returns a public shell script) |
+| All other API endpoints | Yes (Bearer token) |
 
 ## Token Security
 
-- Tokens are derived from your GitHub user ID and a server secret
-- Tokens are stable — regenerating only happens when you explicitly request it
-- Never share your token publicly
+- Treat your token like a password — never share it publicly or commit it to Git
+- Tokens are stored securely and can be regenerated from the dashboard if compromised
+- Each token is tied to your user account and grants full API access

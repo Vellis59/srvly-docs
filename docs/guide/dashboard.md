@@ -24,5 +24,5 @@ If you're on the Free plan, a banner shows your server usage (e.g., "1/1 servers
 ## Navigation
 
 - **Servers** — list and manage all your connected servers
-- **Catalog** — browse 900+ open-source apps
-- **Settings** — view and copy your agent prompt with safety rules
+- **Catalog** — browse 1,668+ open-source apps across 10 categories
+- **Settings** — view your API token and server configuration
